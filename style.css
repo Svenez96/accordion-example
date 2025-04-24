@@ -6,16 +6,11 @@
     font-size: 20px;
 }
 
-html, body{
-    width: 1600px;
-}
-
 .accordion {
     background-color: #eee;
     color: #444;
     padding: 18px;
     width: 100%;
-    max-width: 1200px;
     text-align: left;
     border: none;
     transition: 0.4s;
@@ -47,8 +42,20 @@ html, body{
   }
 
   span{
-    position: absolute;
-    left: 85vw;
+ margin-left: 90%;
+  }
+
+
+  @media screen and (max-width:1000px){
+    span{
+      margin-left: 80%;
+    }
+  }
+  
+  @media screen and (max-width:600px){
+    span{
+      margin-left: 70%;
+    }
   }
 
  
